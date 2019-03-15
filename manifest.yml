@@ -1,0 +1,7 @@
+---
+applications:
+- name: dotnet-core-web1
+  memory: 512M
+  instances: 1
+  buildpacks: 
+    - https://github.com/cloudfoundry/dotnet-core-buildpack/releases/download/v2.2.7/dotnet-core-buildpack-cflinuxfs2-v2.2.7.zip
